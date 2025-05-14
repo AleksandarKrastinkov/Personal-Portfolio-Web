@@ -2,8 +2,6 @@
 
 A modern, responsive web portfolio showcasing my skills, projects, and professional information.
 
-![Portfolio Screenshot](https://via.placeholder.com/800x400?text=Portfolio+Screenshot)
-
 ## Features
 
 - **Interactive UI**: Modern, sleek design with animations and transitions

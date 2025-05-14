@@ -24,7 +24,6 @@ yarn-error.log*
 
 # environment variables
 .env
-<<<<<<< HEAD
 .env.*
 *.env
 .vercel
@@ -34,5 +33,3 @@ yarn-error.log*
 *credentials*
 *secret*
 *private*
-=======
->>>>>>> origin/main

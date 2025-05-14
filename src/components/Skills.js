@@ -14,14 +14,11 @@ export const Skills = () => {
   };
 
   const skills = [
-<<<<<<< HEAD
     { name: "REST API" },
-=======
     { name: "JavaScript" },
->>>>>>> origin/main
     { name: "C#" },
     { name: ".Net Developer" },
-    { name: "Web Development" }
+    { name: "SQL" }
   ];
 
   const handleAfterChange = (previousSlide, { currentSlide }) => {

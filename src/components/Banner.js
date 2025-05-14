@@ -6,11 +6,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 // Define tick function outside the component
-<<<<<<< HEAD
 const toRotate = [".Net Developer", "Software Engineer", "Let's Work Together"];
-=======
-const toRotate = ["Web Developer", "Frontend Developer", "UI/UX Designer(Maybe)"];
->>>>>>> origin/main
 const period = 1100;
 
 const tick = ({ loopNum, setLoopNum, isDeleting, setIsDeleting, text, setText, setDelta }) => {
@@ -66,15 +62,9 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-<<<<<<< HEAD
                   <h1>{`Hi! I'm Aleksandar`} <span className="txt-rotate" dataPeriod="700"><span className="wrap">{text}</span></span></h1>
                   <p>My name is Aleksandar and I am inspired to create new designs and learn more!</p>
                   <button onClick={handleConnectClick}>Let's Connect <ArrowRightCircle size={25} /></button>
-=======
-                  <h1>{`Hi! I'm Aleksandar`} <span className="txt-rotate" dataPeriod="700" data-rotate='[ "Web Developer", "Innovator", "UI/UX Designer(Maybe)" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>My name is Aleksandar and I am inspired to create new designs and learn more!</p>
-                  <button onClick={handleConnectClick}>Let’s Connect <ArrowRightCircle size={25} /></button>
->>>>>>> origin/main
                 </div>}
             </TrackVisibility>
           </Col>

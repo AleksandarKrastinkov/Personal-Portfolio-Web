@@ -499,7 +499,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-<<<<<<< HEAD
 
 /* New Project Card Styling */
 .proj-card {
@@ -575,8 +574,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: translateX(5px);
 }
 
-=======
->>>>>>> origin/main
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -699,7 +696,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 16px; /* Reduced icon size */
 }
 
-<<<<<<< HEAD
 /* Mobile Responsiveness Improvements */
 @media screen and (max-width: 991px) {
   .banner {
@@ -838,5 +834,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-=======
->>>>>>> origin/main

@@ -13,10 +13,7 @@ export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
-<<<<<<< HEAD
   const [expanded, setExpanded] = useState(false);
-=======
->>>>>>> origin/main
 
   useEffect(() => {
     const onScroll = () => {
@@ -34,19 +31,12 @@ export const NavBar = () => {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
-<<<<<<< HEAD
     setExpanded(false);
-=======
->>>>>>> origin/main
   }
 
   return (
     <Router>
-<<<<<<< HEAD
       <Navbar variant="dark" bg="black" expand="md" className={scrolled ? "scrolled" : ""} expanded={expanded} onToggle={setExpanded}>
-=======
-      <Navbar variant="dark " bg="black" expand="md" className={scrolled ? "scrolled" : ""}>
->>>>>>> origin/main
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
@@ -66,13 +56,8 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/profile.php?id=100009374042970"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/alexsandar_kr/"><img src={navIcon3} alt="" /></a>
               </div>
-<<<<<<< HEAD
               <HashLink to='#connect' onClick={() => setExpanded(false)}>
                 <button className="vvd"><span>Let's Connect</span></button>
-=======
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
->>>>>>> origin/main
               </HashLink>
             </span>
           </Navbar.Collapse>

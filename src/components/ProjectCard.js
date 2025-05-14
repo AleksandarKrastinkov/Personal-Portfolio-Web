@@ -1,5 +1,4 @@
 import { Col } from "react-bootstrap";
-<<<<<<< HEAD
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 export const ProjectCard = ({ title, description, link }) => {
@@ -14,17 +13,6 @@ export const ProjectCard = ({ title, description, link }) => {
               View Project <ArrowRightCircle size={18} />
             </a>
           </div>
-=======
-
-export const ProjectCard = ({ title, description, imgUrl }) => {
-  return (
-    <Col size={12} sm={6} md={4}>
-      <div className="proj-imgbx">
-        <img src={imgUrl} alt={title} />
-        <div className="proj-txtx">
-          <h4>{title}</h4>
-          <span>{description}</span>
->>>>>>> origin/main
         </div>
       </div>
     </Col>

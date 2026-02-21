@@ -5,6 +5,7 @@ const nodemailer = require("nodemailer");
 const path = require("path");
 require('dotenv').config();
 
+// New comment added for testing purposes
 // Server used to send emails and serve static files
 const app = express();
 

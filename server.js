@@ -43,6 +43,7 @@ contactEmail.verify((error) => {
 app.post("/api/contact", (req, res) => {
   console.log('Contact form submission received:', req.body);
   
+  // Retrieve user details and message from request body
   const name = req.body.firstName + " " + req.body.lastName;
   const email = req.body.email;
   const message = req.body.message;
@@ -63,6 +64,7 @@ app.post("/api/contact", (req, res) => {
     replyTo: email
   };
   
+  // Send the email
   contactEmail.sendMail(mail, (error) => {
     if (error) {
       console.log("Email sending error:", error);
@@ -79,6 +81,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-// Start server
+// Start server on specified port
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

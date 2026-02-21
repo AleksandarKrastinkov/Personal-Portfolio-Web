@@ -20,6 +20,7 @@ app.use(express.json());
 // Serve static files from the React build
 app.use(express.static(path.join(__dirname, 'build')));
 
+// Additional comment added for further testing
 // Email configuration for ABV.bg
 const contactEmail = nodemailer.createTransport({
   host: 'smtp.abv.bg',
